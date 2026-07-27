@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Nguyễn Đăng Khoa</title>
+  <meta name="description" content="Ghi chú kỹ thuật về lập trình, thiết kế và các công cụ đang khám phá." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="blog">
+  <div class="top-accent"></div>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">DK</span>
+        <span class="brand-text">
+          <span class="brand-name">Nguyễn Đăng Khoa</span>
+          <span class="brand-role">Sinh viên KTPM</span>
+        </span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link" data-page="home">Trang Chủ</a>
+        <a href="du-an.html" class="nav-link" data-page="projects">Dự Án</a>
+        <a href="blog.html" class="nav-link" data-page="blog">Blog</a>
+        <a href="index.html" class="nav-cta">📄 Hồ Sơ</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Mở menu điều hướng" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= PAGE HEAD ================= -->
+  <section class="blog-page-head container">
+    <div class="page-eyebrow">Viết Lách</div>
+    <h1 class="page-title">Góc Kỹ Thuật</h1>
+    <p class="page-desc">
+      Ghi chú về lập trình, thiết kế và những công cụ tôi đang khám phá
+    </p>
+  </section>
+
+  <!-- ================= NỘI DUNG BLOG ================= -->
+  <section class="container blog-page-content">
+
+    <!-- Bài viết nổi bật -->
+    <article class="featured-post">
+      <div class="featured-cover">
+        <img src="assets/blog/toigian.png" alt="Ảnh bìa bài viết Kiến Trúc Của Sự Tĩnh Lặng" class="cover-img" />
+        <div class="featured-tags">
+          <span class="featured-tag">Thiết Kế UI</span>
+          <span class="featured-tag primary">Nổi Bật</span>
+        </div>
+      </div>
+      <div class="featured-body">
+        <div class="post-meta">18 Tháng 7, 2026 · 8 phút đọc</div>
+        <h2 class="post-title">
+          Kiến Trúc Của Sự Tĩnh Lặng: Xây Dựng Giao Diện Tối Giản Thực Sự Hiệu Quả
+        </h2>
+        <p class="post-excerpt">
+          Thiết kế đẹp không liên quan đến việc thêm màu sắc hơn, font weight hơn, hay nhiều
+          khoảng trắng hơn — mà là tạo ra giao diện cảm giác tự nhiên và đúng đắn về mặt thiết kế.
+        </p>
+        <a href="#" class="read-more">Đọc bài viết →</a>
+      </div>
+    </article>
+
+    <!-- Danh sách bài viết khác -->
+    <div class="other-posts-label">Bài Viết Khác</div>
+
+    <div class="post-row">
+      <div class="post-row-thumb post-thumb-1"><img src="assets/blog/troc++.png" alt="Minh họa bài viết về con trỏ C++" /></div>
+      <div class="post-row-body">
+        <div class="post-row-meta">
+          12 Tháng 7, 2026 &nbsp;·&nbsp; <span class="post-category">Lập Trình C++</span> &nbsp;·&nbsp; 6 phút đọc
+        </div>
+        <h3 class="post-row-title">Hiểu Con Trỏ Trong C++ Qua Những Ví Dụ Thực Tế</h3>
+        <p class="post-row-desc">
+          Hành trình từ hoang mang đến tự tin với con trỏ — thông qua các ví dụ về quản lý bộ
+          nhớ, cấu trúc dữ liệu và hiệu suất.
+        </p>
+      </div>
+    </div>
+
+    <div class="post-row">
+      <div class="post-row-thumb post-thumb-2"><img src="assets/blog/2d.png" alt="Minh họa bài viết về game 2D SDL2" /></div>
+      <div class="post-row-body">
+        <div class="post-row-meta">
+          28 Tháng 6, 2026 &nbsp;·&nbsp; <span class="post-category">Phát Triển Game</span> &nbsp;·&nbsp; 10 phút đọc
+        </div>
+        <h3 class="post-row-title">Xây Dựng Game 2D Từ Đầu Bằng C++ Và SDL2: Bài Học Rút Ra</h3>
+        <p class="post-row-desc">
+          Sau khi hoàn thành trò chơi 2D đầu tiên bằng C++, đây là những gì tôi học được về vòng
+          lặp gameplay, xử lý va chạm và thiết kế cấp độ.
+        </p>
+      </div>
+    </div>
+
+    <div class="post-row">
+      <div class="post-row-thumb post-thumb-3"><img src="assets/blog/spacing.png" alt="Minh họa bài viết về hệ thống spacing 8px" /></div>
+      <div class="post-row-body">
+        <div class="post-row-meta">
+          14 Tháng 6, 2026 &nbsp;·&nbsp; <span class="post-category">Lập Trình Web</span> &nbsp;·&nbsp; 5 phút đọc
+        </div>
+        <h3 class="post-row-title">Hệ Thống Spacing 8px: Tại Sao Ràng Buộc Lại Là Tự Do Sáng Tạo</h3>
+        <p class="post-row-desc">
+          Hệ thống khoảng cách không chỉ dành cho designer — áp dụng quy tắc 8px vào code giúp bố
+          cục hàng loạt định quyết định layout không cần thiết.
+        </p>
+      </div>
+    </div>
+
+    <div class="post-row">
+      <div class="post-row-thumb post-thumb-4"><img src="assets/blog/py.png" alt="Minh họa bài viết về tự động hóa Python" /></div>
+      <div class="post-row-body">
+        <div class="post-row-meta">
+          03 Tháng 6, 2026 &nbsp;·&nbsp; <span class="post-category">Python</span> &nbsp;·&nbsp; 7 phút đọc
+        </div>
+        <h3 class="post-row-title">Tự Động Hóa Công Việc Học Tập Với Python: 3 Script Tôi Dùng Mỗi Ngày</h3>
+        <p class="post-row-desc">
+          Từ tạo flashcard tự động tới ghi chú, đến nhắc ôn tập nhờ lặp theo spaced repetition —
+          Python giúp việc học trở nên có hệ thống hơn.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <span class="brand-mark">DK</span>
+            <span class="brand-text">
+              <span class="brand-name" style="color:#fff">Nguyễn Đăng Khoa</span>
+              <span class="brand-role">Sinh viên KTPM</span>
+            </span>
+          </div>
+        </div>
+        <div>
+          <div class="footer-heading">Điều Hướng</div>
+          <ul class="footer-links">
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="du-an.html">Dự Án</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Kết Nối</div>
+          <div class="footer-socials">
+            <a href="nguyendangkhoa28lhk@gmail.com" class="social-icon" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></a>
+            <a href="#" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.25h4.5V23H.24V8.25zM8.25 8.25h4.31v2.02h.06c.6-1.13 2.07-2.33 4.26-2.33 4.55 0 5.39 3 5.39 6.9V23h-4.5v-6.66c0-1.59-.03-3.63-2.21-3.63-2.22 0-2.56 1.73-2.56 3.52V23h-4.5V8.25z"/></svg></a>
+            <a href="https://github.com/dashboard" class="social-icon" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.41-5.26 5.69.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg></a>
+          </div>
+          <p class="footer-desc">Sẵn sàng thực tập và học hỏi thêm kinh nghiệm.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Nguyễn Đăng Khoa.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
