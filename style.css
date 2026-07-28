@@ -58,7 +58,7 @@ button {
   margin: 0 auto;
   padding: 0 24px;
 }
-/* ---------- Header / Navbar ---------- */
+/* Header*/
 .header {
   border-bottom: 1px solid var(--color-border);
   background: var(--color-bg);
