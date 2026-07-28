@@ -5,7 +5,7 @@
 
 ## Mô tả dự án
 
-Đây là một trang cá nhân với thiết kế tối giản, chuyên nghiệp, được xây dựng nhằm giới thiệu bản thân, kỹ năng và các dự án đã thực hiện. Giao diện được xây dựng theo hướng đơn trang (single-page) với bố cục rõ ràng, hiển thị tốt trên nhiều thiết bị (responsive), giúp người xem dễ dàng nắm bắt thông tin và điều hướng đến các dự án nổi bật. Trang web sử dụng React để xây dựng giao diện, kết hợp với các icon từ thư viện Lucide, mang lại trải nghiệm hiện đại và mượt mà cho người dùng.
+Đây là một trang cá nhân với thiết kế tối giản, chuyên nghiệp, được xây dựng nhằm giới thiệu bản thân, kỹ năng và các dự án đã thực hiện. Giao diện được xây dựng theo trang đơn với bố cục rõ ràng, hiển thị tốt trên nhiều thiết bị, giúp người xem dễ dàng nắm bắt thông tin và điều hướng đến các dự án nổi bật.
 
 ## Liên kết
 
