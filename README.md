@@ -15,5 +15,4 @@
 
 ## Công nghệ sử dụng
 
-- React
 - HTML / CSS / JavaScript
