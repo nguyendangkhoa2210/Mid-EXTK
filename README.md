@@ -9,7 +9,7 @@
 
 ## Liên kết
 
-- **Bản thiết kế Figma Web & Mobile:** https://www.figma.com/design/k2hECjmgTsMSGJDjIyzYQc/web?node-id=0-1&t=szqdJsfg793wLfHC-1
+- **Bản thiết kế Figma Web & Mobile:** https://www.figma.com/design/k2hECjmgTsMSGJDjIyzYQc/web?node-id=0-1&t=S2BqhhZYBu6bkDdF-1
 
 - **Live Demo:** https://nguyendangkhoa2210.github.io/Mid-EXTK/
 
